@@ -6,4 +6,8 @@ class Myclass{
 	main(){
 		Sysout("Hello Git!!");
 	}
+	
+	void displayDate(){
+		// Business logic to display date on  remote.
+	}
 }
