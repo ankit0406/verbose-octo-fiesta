@@ -1,3 +1,5 @@
 This change should be reverted soon.
 
 This is a new commit on bug 123.
+
+This is the commit on bug 234.
