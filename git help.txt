@@ -11,3 +11,17 @@ git log --grep="<pattern/string>"  // will return all commits having a message a
 
 git reset head --hard  	// Working directory specific
 else  git checkout <file>	// file name specific
+
+git rebase : can be used with both push and pull.
+git rebase pull
+git rebase push
+When you resolve conflicts in rebase state, then after resolving conflicts, add the file and run git rebase --continue.
+
+
+Interactive rebase:
+
+If you do a changes in series of commits, and you realize that it should go in one commit only, then you can use git rebase -i.
+
+git rebase -i head~3 		// rebase last 3 commits including head.
+
+This will open a notepad file with various commands. You can use squash  by writing a s or squash in front of the commit in notepad.
