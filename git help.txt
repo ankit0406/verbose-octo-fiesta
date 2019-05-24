@@ -7,3 +7,7 @@ git log --since="mm-dd-yyyy" --until
 git log --help
 
 git log --grep="<pattern/string>"  // will return all commits having a message as specified;
+
+
+git reset head --hard  	// Working directory specific
+else  git checkout <file>	// file name specific
