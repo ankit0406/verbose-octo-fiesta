@@ -2,6 +2,10 @@ class Myclass{
 	void myMethod(){
 		Sysout("Mymethod Business logic");
 	}
+
+	void displayDate(){
+		// committed from inside.
+	}
 	
 	main(){
 		Sysout("Hello Git!!");
