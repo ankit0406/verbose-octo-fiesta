@@ -25,3 +25,5 @@ If you do a changes in series of commits, and you realize that it should go in o
 git rebase -i head~3 		// rebase last 3 commits including head.
 
 This will open a notepad file with various commands. You can use squash  by writing a s or squash in front of the commit in notepad.
+
+this is the 2nd commit.
